@@ -134,7 +134,7 @@ export async function abrirCheckout(page) {
 
 export async function finalizarCheckout(page, produtos) {
 
-    preencherInfoCheckout(page)
+    await preencherInfoCheckout(page)
 
     console.log('Informações populadas para o checkout!')
 
