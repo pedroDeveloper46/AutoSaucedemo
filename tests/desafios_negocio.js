@@ -8,7 +8,7 @@ export function mediaPrecos(produtos) {
 
     mediaProdutos = mediaProdutos / produtos.length;
 
-    console.log(`Média final produtos: ${mediaProdutos}`)
+    console.log(`Média final produtos: ${mediaProdutos.toFixed(2)}`)
 
 }
 
